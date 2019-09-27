@@ -1,4 +1,4 @@
-module github.com/VictoriaMetrics/metrics
+module github.com/taiyang-li/metrics
 
 require github.com/valyala/histogram v1.0.1
 

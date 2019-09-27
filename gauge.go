@@ -36,6 +36,7 @@ func (g *Gauge) Get() float64 {
 
 func (g *Gauge) marshalTo(prefix string, w io.Writer) {
 	v := g.f()
+	fmt.Fprintf(w, "TYPE %s guage\n", prefix)
 	if float64(int64(v)) == v {
 		// Marshal integer values without scientific notation
 		fmt.Fprintf(w, "%s %d\n", prefix, int64(v))
