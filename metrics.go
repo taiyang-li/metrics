@@ -9,7 +9,7 @@
 //     2. Expose them to `/metrics` page via WritePrometheus.
 //     3. Update the registered metrics during application lifetime.
 //
-// The package has been extracted from https://victoriametrics.com/
+// The package has been extracted from https://taiyang-li.com/
 package metrics
 
 import (

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/VictoriaMetrics/metrics"
+	"github.com/taiyang-li/metrics"
 )
 
 func ExampleGauge() {
